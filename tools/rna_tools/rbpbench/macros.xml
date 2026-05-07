@@ -1,5 +1,5 @@
 <macros>
-    <token name="@TOOL_VERSION@">1.0.6</token>
+    <token name="@TOOL_VERSION@">1.1.0</token>
     <token name="@VERSION_SUFFIX@">1</token>
     <token name="@profile@">24.1</token>
     <xml name="requirements">
@@ -269,7 +269,7 @@
 
 **What is RBPBench?**
 
-RBPBench is multi-function tool to evaluate CLIP-seq and other genomic region data using a comprehensive collection of known RNA-binding protein (RBP) binding motifs. RBPBench can be used for a variety of purposes, from RBP motif search (database or user-supplied RBPs) in genomic regions, over motif enrichment and co-occurrence analysis, in-depth comparisons over multiple datasets via sequence and genomic annotation statistics, to benchmarking CLIP-seq peak caller methods as well as comparisons across cell types and CLIP-seq protocols. RBPBench supports both sequence and structure motifs, as well as regular expressions. Moreover, users can easily provide their own motif collections. For more details, visit the `RBPBench GitHub repository`_ or the `RBPBench website`_.
+RBPBench is multi-function tool to evaluate CLIP-seq and other genomic region data using a comprehensive collection of known RNA-binding protein (RBP) binding motifs. RBPBench can be used for a variety of purposes, from RBP motif search (database or user-supplied RBP motifs) in genomic regions, over motif enrichment and co-occurrence analysis, in-depth comparisons over multiple datasets via sequence and genomic annotation statistics, to benchmarking CLIP-seq peak caller methods as well as comparisons across cell types and CLIP-seq protocols. RBPBench supports both sequence and structure motifs, as well as regular expressions (sequence and structure patterns). Moreover, users can easily provide their own motif collections. For more details, visit the `RBPBench GitHub repository`_ or the `RBPBench website`_.
 
 .. _RBPBench GitHub repository: https://github.com/michauhl/RBPBench
 .. _RBPBench website: https://backofenlab.github.io/RBPBench
